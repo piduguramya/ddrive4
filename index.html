@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        body{
+            overflow-x: hidden;
+        }
         .vdo{
             position: absolute;
             width: 100%;
@@ -31,6 +34,13 @@
             margin-top: 600px;
             display: flex;
         }
+        .acrel{
+            display: flex;
+            flex-direction: column;
+            text-decoration: none;
+            font-size: 30px;
+            padding-left: 5%;
+        }
     </style>
 </head>
 <body>
@@ -48,11 +58,11 @@
         </div>
     </nav>
     <main class="body">
-        <div class="acrel">
-        <a href="http://127.0.0.1:3000/table.html" target="x">tables</a><br>
-        <a href="http://127.0.0.1:3000/form.html" target="x">forms</a><br>
-        <a href="http://127.0.0.1:3000/cads.html" target="x">cards</a><br>
-        <a href="http://127.0.0.1:3000/form.html" target="x">lists</a>
+        <div class="acrel" style="background-color: lavenderblush; width: 10%; padding-top: 10%;">
+        <a href="http://127.0.0.1:3000/table.html" target="x" style="text-decoration: none; color: black;">tables</a><br>
+        <a href="http://127.0.0.1:3000/form.html" target="x" style="text-decoration: none; color: black;">forms</a><br>
+        <a href="http://127.0.0.1:3000/cads.html" target="x" style="text-decoration: none; color: black;">cards</a><br>
+        <a href="http://127.0.0.1:3000/form.html" target="x" style="text-decoration: none; color: black;">lists</a>
         </div>
         <iframe src="" frameborder="0" name="x" height="500vh" width="1200vw"></iframe>
     </main>
